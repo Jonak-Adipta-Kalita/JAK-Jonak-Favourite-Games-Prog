@@ -1,5 +1,5 @@
 const dex = document.getElementById('dex');
-const BASE_URL = "https://jak-api-dot-com.herokuapp.com/api";
+const BASE_URL = "https://jak-api-dot-com.herokuapp.com";
 
 const fetchGames = async () => {
     const url = `${BASE_URL}/api/hobby/0`;
